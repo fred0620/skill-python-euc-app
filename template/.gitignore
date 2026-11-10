@@ -1,0 +1,24 @@
+# 開發環境
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.uv-cache/
+# 執行環境與換版暫存（自動產生）
+runtime/
+app.old/
+app.swap/
+app.new/
+updates/
+# 打包產物
+dist/
+app/wheels/
+*.zip
+# 使用者資料一律不進版控
+workspace/
+# 真實資料常見的格式，需要放範例時用 !app/examples/... 例外開放
+*.xlsx
+*.xls
+*.csv
+*.pdf
+.DS_Store
